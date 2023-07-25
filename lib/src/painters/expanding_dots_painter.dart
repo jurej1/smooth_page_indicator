@@ -53,7 +53,7 @@ class ExpandingDotsPainter extends BasicIndicatorPainter {
       canvas.drawRRect(
         rRect,
         dotPaint
-          ..color = color
+          ..color = Colors.green
           ..style = PaintingStyle.stroke,
       );
     }
