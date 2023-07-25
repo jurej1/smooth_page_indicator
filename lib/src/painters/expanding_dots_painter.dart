@@ -55,7 +55,7 @@ class ExpandingDotsPainter extends BasicIndicatorPainter {
         dotPaint
           ..color = const Color(0XFFEACD75)
           ..style = PaintingStyle.stroke
-          ..strokeWidth = 0.5,
+          ..strokeWidth = 4,
       );
     }
   }
