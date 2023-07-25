@@ -50,13 +50,13 @@ class ExpandingDotsPainter extends BasicIndicatorPainter {
       );
       drawingOffset = rRect.right;
       canvas.drawRRect(rRect, dotPaint..color = color);
-      // canvas.drawRRect(
-      //   rRect,
-      //   dotPaint
-      //     ..color = const Color(0XFFEACD75)
-      //     ..style = PaintingStyle.stroke
-      //     ..strokeWidth = 0.5,
-      // );
+      canvas.drawRRect(
+        rRect,
+        Paint()
+          ..color = const Color(0XFFEACD75)
+          ..style = PaintingStyle.stroke
+          ..strokeWidth = 0.5,
+      );
     }
   }
 }
